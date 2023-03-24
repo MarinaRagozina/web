@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>User form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Общая информация</legend>
+            <div>
+                <label for="Surname">Фамилия: </label>
+                <input id="surname" type="text" name="surname" placeholder="Иванов">
+            </div>
+            <div>
+                <label for="Surname">Имя: </label>
+                <input id="name" type="text" name="name" placeholder="Иван">
+            </div>
+            <div>
+                <label for="Patronomic">Отчество: </label>
+                <input id="patronomic" type="text" name="patronomic" placeholder="Иванович">
+            </div>
+            <div>
+                <label for="birthday">Дата рождения: </label>
+                <input id="birthday" type="date" name="date">
+            </div>
+            <div>
+                <label for="email">email: </label>
+                <input id="email" type="text" name="email" placeholder="mail@mail.ru">
+            </div>
+        </fieldset>
+        <fieldset class="choice">
+            <legend>Пол</legend>
+            <div>
+                <input id="male" type="radio" name="sex">
+                <label for="male">М</label>
+            </div>
+            <div>
+                <input id="female" type="radio" name="sex">
+                <label for="female">Ж</label>
+            </div>
+        </fieldset>
+        <fieldset class="choice">
+            <legend>Хобби</legend>
+            <div>
+                <input id="painting" type="checkbox" name="hobby">
+                <label for="painting">Рисование</label>
+            </div>
+            <div>
+                <input id="reading" type="checkbox" name="hobby">
+                <label for="reading">Чтение</label>
+            </div>
+            <div>
+                <input id="knitting" type="checkbox" name="hobby">
+                <label for="knitting">Вязание</label>
+            </div>
+            <div>
+                <input id="cooking" type="checkbox" name="hobby">
+                <label for="cooking">Кулинария</label>
+            </div>
+        </fieldset>
+        <div>
+            <button>Отправить</button>
+            <button>Очистить</button>
+        </div>
+    </form>
+    <!-- <div>
+        <label for="birthday">Дата рождения: </label>
+        <input id="birthday" type="date" name="date">
+    </div>
+    <div>
+        <label for="login">Логин: </label>
+        <input id="login" type="text" name="login" placeholder="login">
+    </div>
+    <div>
+        <label for="password">Пароль: </label>
+        <input id="password" type="password" name="password" placeholder="password">
+    </div>
+    <fieldset>
+        <p>Выберите способ связи:</p>
+        <div>
+            <label for="email">по email</label>
+            <input id="email" type="radio" name="email">
+        </div>
+        <div>
+            <label for="phone">по телефону</label>
+            <input id="phone" type="radio" name="phone">
+        </div>
+        <div>
+            <label for="mail">по почте</label>
+            <input id="mail" type="radio" name="mail">
+        </div>
+    </fieldset>
+    
+    <input type="submit"/> -->
+</body>
+</html>

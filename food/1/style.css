@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+    background: #fffded;
+}
+.container{
+    margin: 0 150px;
+}
+.main-title{
+    padding: 55px 0;
+    color: #753C20;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.block {
+    display: flex;
+    margin-bottom: 55px;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.block-text {
+    margin: 0 55px;
+}
+
+.title {
+    margin-bottom: 55px;
+    color: #D89B82;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    width: 400px;
+}
+.join{
+    text-align: center;
+}
+.join-title{
+    margin-bottom: 34px;
+    color: #E78326;
+    font-size: 36px;
+    font-weight: 700;
+}
+.join-text{
+    margin-bottom: 55px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.email{
+    color: #E78326;
+}
+
+
+

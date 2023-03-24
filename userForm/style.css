@@ -1,0 +1,19 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background: url("Unknown.png");
+    background-repeat: repeat;
+    background-size: 300px 300px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    width: 80px;
+    font-weight: 200;
+}
+
+.choice {
+    display: flex;
+}
