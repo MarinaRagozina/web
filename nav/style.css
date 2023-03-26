@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.nav {
+    background: #ffc0cb;
+    height: 100px;
+    padding: 0 50px;
+    display: flex; 
+    justify-content: space-between; /*раскидываем логотип и меню по разным краям*/
+    align-items: center; /*размещаем по центру*/
+}
+
+.menu {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    color: #ff1f46;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.link:hover {
+    color: #ff1f46;
+}
