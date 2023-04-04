@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CoffeeOrder</title>
+</head>
+<body>
+    <header class="header">
+        <h1>COFFEE HOUSE</h1>
+    </header>  
+    <div class="main">
+        <div class="full__name">
+            <input class="name__input" id="name" type="text" name="name" placeholder="Введите имя">
+            <input class="name__input" id="surname" type="text" name="surname" placeholder="Введите фамилию">
+        </div>
+        <div class="products">
+            <div class="column">
+                <div class="product_container">
+                    <div class="checkbox_container">
+                        <input class="checkbox" type="checkbox" id="espresso" name="product" value="80">
+                        <label for="espresso">Эспрессо 80р.</label>
+                    </div>
+                    <input class="counter" type="text" name="counter" value="0">
+                </div>
+                <div class="product_container">
+                    <div class="checkbox_container">
+                        <input class="checkbox" type="checkbox" id="latte" name="product" value="110">
+                        <label for="latte">Латте 110р.</label>
+                    </div>
+                    <input class="counter" type="text" name="counter" value="0">
+                </div>
+                <div class="product_container">
+                    <div class="checkbox_container">
+                        <input class="checkbox" type="checkbox" id="capuccino" name="product" value="120">
+                        <label for="capuccino">Капучино 120р.</label>
+                    </div>
+                    <input class="counter" type="text" name="counter" value="0">
+                </div>
+                <div class="product_container">
+                    <div class="checkbox_container">
+                        <input class="checkbox" type="checkbox" id="americano" name="product" value="90">
+                        <label for="americano">Американо 90р.</label>
+                    </div>
+                    <input class="counter" type="text" name="counter" value="0">
+                </div>
+            </div>
+            <div class="column">
+                <div class="product_container">
+                    <div class="checkbox_container">
+                        <input class="checkbox" type="checkbox" id="chocolate" name="product" value="80">
+                        <label for="chocolate">Шоколадный кекс 80р.</label>
+                    </div>
+                    <input class="counter" type="text" name="counter" value="0">
+                </div>
+                <div class="product_container">
+                    <div class="checkbox_container">
+                        <input class="checkbox" type="checkbox" id="blueberry" name="product" value="90">
+                        <label for="blueberry">Черничный кекс 90р.</label>
+                    </div>
+                    <input class="counter" type="text" name="counter" value="0">
+                </div>
+                <div class="product_container">
+                    <div class="checkbox_container">
+                        <input class="checkbox" type="checkbox" id="apple" name="product" value="100">
+                        <label for="apple">Яблочный тарт 100р.</label>
+                    </div>
+                    <input class="counter" type="text" name="counter" value="0">
+                </div>
+            </div>
+            
+        </div>
+        <div class="total">
+            <p class="total__sum">Итого: <span class="result">0</span> р.</p>
+            <button class="btn">Оформить заказ</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
